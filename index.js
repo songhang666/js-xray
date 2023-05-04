@@ -1,5 +1,5 @@
 const server = "127.0.0.1";
-const port = 3000;
+const port = 3008;
 const express = require("express");
 const app = express();
 var exec = require("child_process").exec;
@@ -10,7 +10,7 @@ var fs = require("fs");
 
 //首页显示内容
 app.get("/", function (req, res) {
-  res.send("Hello cyclic!");
+  res.send("Hello vercel!");
 });
 
 //启动web
